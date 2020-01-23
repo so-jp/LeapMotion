@@ -55,6 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DebugGUI\Attributes\DebugGUIGraphAttribute.cs" />
+    <Compile Include="Assets\DebugGUI\Attributes\DebugGUIPrintAttribute.cs" />
+    <Compile Include="Assets\DebugGUI\DebugGUI.cs" />
+    <Compile Include="Assets\DebugGUI\Examples\DebugGUIExamples.cs" />
     <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\InertiaPostProcessProvider.cs" />
     <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\ProjectionPostProcessProvider.cs" />
     <Compile Include="Assets\LeapMotion\Core\Plugins\LeapCSharp\Arm.cs" />
@@ -244,6 +248,7 @@
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\XRHeightOffset.cs" />
     <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
     <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
+    <None Include="Assets\DebugGUI\README.txt" />
     <None Include="Assets\LeapMotion\Core\readme.txt" />
     <None Include="Assets\LeapMotion\Core\Shaders\RuntimeGizmos.shader" />
     <None Include="Assets\LeapMotion\Core\Dependencies.txt" />
